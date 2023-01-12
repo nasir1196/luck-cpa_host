@@ -1,0 +1,82 @@
+.main-home{
+  height: 131vh;
+}
+
+.set-bg{
+  background-image: url("./source/bg\ \(4\).jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 130vh;
+  opacity: 0.7;
+}
+
+.login a{
+  color: #e040ab;
+}
+.sign a{
+  color: #44308d;
+}
+
+.new-bg{
+  height: 130vh;
+}
+.set-bg:hover{
+opacity: 1.0;
+}
+.nav-head{
+position: fixed;
+}
+
+.nav-container{
+  display:flex;
+  justify-content: space-between;
+}
+
+.description{
+  color:#303058
+}
+.description p{
+  font-size: 1.5rem;
+  color:#532a2f;
+  font-weight: 700;
+}
+
+.login a,.sign a{
+  text-decoration: none;
+  margin:  17px 43px 24px 47px;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+
+
+.login a:hover,.sign a:hover{
+  color:#39696d;
+  font-size: 2rem;
+  opacity: 1.0;
+}
+
+.title{
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 390px){
+.login a,.sign a{
+  font-size: 1rem;
+}
+.login a:hover, .sign a:hover{
+  color:#a7a7d1;
+  font-size: 1.2rem;
+}
+}
+
+@media only screen and (min-width: 280px){
+.login,.sign{
+  font-size: 0.7rem;
+}
+.login:hover, .sing:hover{
+  color:#a7a7d1;
+  font-size: 1rem;
+}
+}
